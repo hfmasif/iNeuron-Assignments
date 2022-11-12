@@ -82,3 +82,26 @@ Ans13: We can use print() funciton to fine any output.
 
 Q14. What are operators in Python?
 Ans14: Operators are mathmetical functions. like +, -, *, /, ** etc. 
+
+
+# Q15. What is difference between / and // operators?
+Ans14: 
+
+
+# Q16. Write a code that gives following as an output.
+# ```
+# iNeuroniNeuroniNeuroniNeuron
+# ```
+string_var = "iNeuron"
+print(string_var * 4)
+
+
+
+
+
+
+
+
+
+
+
