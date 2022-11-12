@@ -96,7 +96,13 @@ string_var = "iNeuron"
 print(string_var * 4)
 
 
-
+# Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+Ans17:
+number_var = int(input("Enter a number : "))
+if (number_var%2 == 0):
+    print(number_var, "is Even Number !")
+else:
+    print(number_var, "is Odd Number !")
 
 
 
