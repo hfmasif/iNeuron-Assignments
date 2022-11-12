@@ -89,9 +89,8 @@ Ans14:
 
 
 # Q16. Write a code that gives following as an output.
-# ```
 # iNeuroniNeuroniNeuroniNeuron
-# ```
+Ans16:
 string_var = "iNeuron"
 print(string_var * 4)
 
@@ -105,7 +104,20 @@ else:
     print(number_var, "is Odd Number !")
 
 
+# Q18. What are boolean operator?
+Ans18: &and ||or !not
 
+
+# Q19. What will the output of the following?
+# ```
+# 1 or 0
+output: 1
+# 0 and 0
+output: 0
+# True and False and True
+output: False
+# 1 or 0 or 0
+output: 1
 
 
 
