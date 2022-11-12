@@ -1,1 +1,84 @@
 
+## Assignment Part-1
+Q1. Why do we call Python as a general purpose and high-level programming language?
+Ans1: Because it is easy to understand to Humans.
+
+
+Q2. Why is Python called a dynamically typed language?
+Ans2: Because we do not need to specify types name every time.
+
+
+Q3. List some pros and cons of Python programming language?
+Ans3: 
+Pros-
+1. Beginner-Friendly 
+2. Large Community
+3. Flexible and Extensible
+4. Extensive Libraries 
+5. Embeddable
+6. Highly Scalable
+7. IOT Opportunities
+8. Machine Learning
+9. Portable
+
+Cons-
+1. Issues with Design
+2. Slower than Compiled Languages
+3. Security
+4. Work Environment
+5. Python’s Memory Consumption and Garbage Collection
+6. Python is Dynamically Typed
+7. Multithreading in Python 
+
+
+Q4. In what all domains can we use Python?
+Ans4: Yes we can use python almost all domain like game development, mobile app development, web development, 
+machine learning, deep learning, artificial intelligence, data domain etc.
+
+
+Q5. What are variable and how can we declare them?
+Ans5: Variable is like a container where value is stored. we can declare them by any supported format name.
+example- a=10, name="asif", boolvar=False etc 
+
+
+Q6. How can we take an input from the user in Python?
+Ans6: by using input() function.
+
+
+Q7. What is the default datatype of the value that has been taken as an input using input() function?
+Ans7: String.
+
+
+Q8. What is type casting?
+Ans8: Change data type from one to another. like integer to float, float to integer, string to integer etc.
+
+
+Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
+Ans9: If we use only input() then we can not take more than one input from user Because input() function is built with
+ such functionality. But if we add split() function with input() function then we can take multiple inputs.
+ex:
+x, y = input("Enter two values: ").split()
+print("Number of x: ", x)
+print("Number of y: ", y)
+
+
+Q10. What are keywords?
+Ans10: Keywords are reserved or predefined words.
+
+
+Q11. Can we use keywords as a variable? Support your answer with reason.
+Ans11: No, we can not use keywords as a variable name. Because keywords itself is a valuable words that can not use as a variable. 
+Variable has its own way to write.
+
+
+Q12. What is indentation? What's the use of indentaion in Python?
+Ans12: Indentation is a format in any programming language which is defined as a space. One space is refer one indentation. 
+In Python itself has 4 space count as predefined indentation.
+
+
+Q13. How can we throw some output in Python?
+Ans13: We can use print() funciton to fine any output.
+
+
+Q14. What are operators in Python?
+Ans14: Operators are mathmetical functions. like +, -, *, /, ** etc. 
