@@ -120,6 +120,17 @@ output: False
 output: 1
 
 
+# Q20. What are conditional statements in Python?
+Ans20: Conditional statements are used to implement condition in any program.
 
+
+# Q21. What is use of 'if', 'elif' and 'else' keywords?
+Ans21: if, elif are used to apply condition and else is used to by-default condition whice are not in the if, elif condition.
+if <condition>:
+    (statements)
+elif <condition>:
+    (statements)
+else:
+    (statements) 
 
 
