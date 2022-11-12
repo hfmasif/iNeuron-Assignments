@@ -140,3 +140,18 @@ if age_var >= 18:
     print("I can vote")
 if age_var < 18:
     print("I can't vote")
+
+
+# Q23. Write a code that displays the sum of all the even numbers from the given list.
+# ```
+# numbers = [12, 75, 150, 180, 145, 525, 50]
+# ```
+#Ans23:
+numbers = [12, 75, 150, 180, 145, 525, 50]
+even_sum_numbers = 0
+print("Even numbers are : ")
+for num in numbers:
+    if num%2 == 0:
+        print(num)
+        even_sum_numbers += num
+print("Sum of even numbers = ", even_sum_numbers)
