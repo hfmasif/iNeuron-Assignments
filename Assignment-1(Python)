@@ -155,3 +155,19 @@ for num in numbers:
         print(num)
         even_sum_numbers += num
 print("Sum of even numbers = ", even_sum_numbers)
+
+
+# Q24. Write a code to take 3 numbers as an input from the user and display the greatest no #as output.
+# Ans24:
+number1 = int(input("Enter number 1 : "))
+number2 = int(input("Enter number 2 : "))
+number3 = int(input("Enter number 3 : "))
+
+if number1 > (number2 and number3):
+    print("Number 1 is greatest = ", number1)
+elif number2 > (number1 and number3):
+    print("Number 2 is greatest = ", number2)
+elif number3 > (number1 and number2):
+    print("Number 3 is greatest = ", number3)
+else:
+    print("Equal numbers !!", number1, number2, number3)
